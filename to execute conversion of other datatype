@@ -1,0 +1,37 @@
+Write the program to execute conversion of other datatype.
+
+Input Format
+
+input corresponds to the integer
+Constraints
+
+No constraints
+
+Output Format
+
+output corresponds to the ASCII values(character)
+Sample Input 0
+
+68
+Sample Output 0
+
+D
+Sample Input 1
+
+111
+Sample Output 1
+
+o
+
+
+
+import java.util.Scanner;
+public class Solution {
+    public static void main(String[] args) {
+        Scanner abc = new Scanner(System.in);
+        int value = abc.nextInt();
+        char ch=(char)value;
+        System.out.print(ch);
+
+    }
+}
